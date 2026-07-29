@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vercel
+.vercel
