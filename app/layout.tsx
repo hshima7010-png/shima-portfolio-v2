@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "嶋 邦将 | EC Engineer — SHIMA PORTFOLIO",
   description:
-    "宮崎拠点のECエンジニア 嶋 邦将(Hosho Shima)のポートフォリオ。ECパッケージ開発+Shopify専門EC制作スタジオ GROWTH STUDIO 運営。売れるECを、設計から運用まで。",
+    "宮崎拠点のECエンジニア 嶋 邦将(Hosho Shima)のポートフォリオ。ECパッケージ開発の実務+Shopify専門EC制作スタジオ GROWTH STUDIO 運営。売れるECを、設計から運用まで。",
   // TODO: 本番公開時に robots の noindex を外すこと(DESIGN.md §8)
   robots: { index: false, follow: false },
   openGraph: {

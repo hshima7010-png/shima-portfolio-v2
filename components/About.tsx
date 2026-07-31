@@ -5,7 +5,7 @@ export default function About() {
     <section id="about" className="about">
       <div className="section-head mono-label">
         <span>About *</span>
-        <span>/ EC package dev /</span>
+        <span>/ EC package dev — front &amp; back /</span>
       </div>
       <div className="about-grid">
         <h2 className="about-title">
@@ -16,7 +16,7 @@ export default function About() {
         <Ascii mode="logo" className="about-ascii" />
       </div>
       <p className="body-text about-text">
-        ECパッケージシステムの開発で、フロントエンドからバックエンドまで一貫して携わってきました。画面の使いやすさと裏側の堅牢さは切り離せない——その両方を自分で設計できることが強みです。現在は宮崎を拠点に、Shopify専門スタジオ
+        ECパッケージシステムの開発に、フロントエンドからバックエンドまで一貫して携わってきました。画面の使いやすさと裏側の堅牢さは切り離せない——その両方を自分で設計できることが強みです。現在は宮崎を拠点に、Shopify専門スタジオ
         GROWTH STUDIO
         を運営し、ECの構築から公開後の運用までを自分の手で回しています。「作って終わり」ではなく、「売れ続ける仕組み」を届けることを大切にしています。
       </p>
