@@ -5,11 +5,11 @@ export default function Statement() {
     <section className="statement">
       <Ascii mode="statement" className="statement-ascii" />
       <h2 className="statement-title">
-        Sell Real <sup>*</sup>
+        Selling reliable e-commerce solutions <sup>*</sup>
         <br />
-        Build Solid <sup>#</sup>
+        Building a solid foundation <sup>#</sup>
         <br />
-        Run It Yourself <sup>™</sup>
+        Operated by growthstudio <sup>・</sup>
       </h2>
     </section>
   );

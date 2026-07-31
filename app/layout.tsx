@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "嶋 邦裕 | EC Engineer — SHIMA PORTFOLIO",
+  title: "嶋 邦将 | EC Engineer — SHIMA PORTFOLIO",
   description:
-    "福岡拠点のECエンジニア 嶋 邦裕(Hosho Shima)のポートフォリオ。ECパッケージ開発4年+Shopify専門EC制作スタジオ GROWTH STUDIO 運営。売れるECを、設計から運用まで。",
+    "宮崎拠点のECエンジニア 嶋 邦将(Hosho Shima)のポートフォリオ。ECパッケージ開発+Shopify専門EC制作スタジオ GROWTH STUDIO 運営。売れるECを、設計から運用まで。",
   // TODO: 本番公開時に robots の noindex を外すこと(DESIGN.md §8)
   robots: { index: false, follow: false },
   openGraph: {
-    title: "嶋 邦裕 | EC Engineer — SHIMA PORTFOLIO",
+    title: "嶋 邦将 | EC Engineer — SHIMA PORTFOLIO",
     description: "売れるECを、設計から運用まで。EC Engineer & Shopify Studio Owner.",
     type: "website",
     locale: "ja_JP",

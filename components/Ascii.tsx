@@ -8,9 +8,9 @@ import {
   buildLogoMask,
   drawDonut,
   drawLogo,
+  drawNoiseCloud,
   drawStatement,
   drawTerrain,
-  fillNoiseCloud,
   type LogoMask,
 } from "@/lib/ascii";
 
@@ -38,12 +38,6 @@ export default function Ascii({ mode, className }: AsciiProps) {
     let logoMask: LogoMask | null = null;
     let cancelled = false;
 
-    // 静的モード: 一度だけ描画して終了
-    if (mode === "cloud") {
-      fillNoiseCloud(el);
-      return;
-    }
-
     const parent = el.parentElement;
     const onMove = (e: MouseEvent) => {
       if (!parent) return;
@@ -64,6 +58,7 @@ export default function Ascii({ mode, className }: AsciiProps) {
       if (cancelled) return;
       if (mode === "terrain") drawTerrain(el, t);
       else if (mode === "statement") drawStatement(el, t, mx, my);
+      else if (mode === "cloud") drawNoiseCloud(el, t);
       else if (mode === "logo") {
         if (logoMask) drawLogo(el, logoMask, t);
         else drawDonut(el, angleA, angleB);

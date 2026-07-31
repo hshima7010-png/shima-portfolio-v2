@@ -4,7 +4,7 @@ const LINES = [
   "I'm Hosho Shima,",
   "an EC Engineer & Shopify",
   "Studio Owner based in",
-  "Fukuoka, Japan.",
+  "Miyazaki, Japan.",
 ];
 
 export default function Hero() {
@@ -13,11 +13,13 @@ export default function Hero() {
       <Ascii mode="terrain" className="hero-ascii" />
       <div className="hero-grid">
         <div className="hero-photo">
-          {/*
-            本人写真を用意したら public/images/hero-photo.webp に置き、
-            下の div を <img src="/images/hero-photo.webp" alt="嶋 邦裕のポートレート" /> に差し替える
-          */}
-          <div>PHOTO — coming soon</div>
+          <img
+            src="/images/hero-photo.webp"
+            alt="GROWTH STUDIO のカバービジュアル — Design / Strategy / Growth"
+            width={1000}
+            height={750}
+            fetchPriority="high"
+          />
         </div>
         <div>
           <div className="hero-label" data-anim="">
@@ -33,7 +35,7 @@ export default function Hero() {
             ))}
           </h1>
           <p className="body-text hero-lead" data-anim="">
-            売れるECを、設計から運用まで。ECパッケージ開発4年+Shopify専門スタジオ GROWTH
+            売れるECを、設計から運用まで。ECパッケージ開発+Shopify専門スタジオ GROWTH
             STUDIO 運営。
           </p>
         </div>

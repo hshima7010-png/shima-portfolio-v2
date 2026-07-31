@@ -10,7 +10,7 @@ export default function Marquee({ items, footer }: MarqueeProps) {
         <span key={i}>
           {item}
           <span className="c" aria-hidden="true">
-            ©
+            .
           </span>
         </span>
       ))}

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div>
         <div className="footer-box">
-          <span>FUKUOKA, JAPAN</span>
+          <span>MIYAZAKI, JAPAN</span>
           <span>WORKING GLOBALLY</span>
           <span>JPN</span>
         </div>

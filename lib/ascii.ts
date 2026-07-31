@@ -221,18 +221,30 @@ export function drawLogo(el: HTMLElement | null, lm: LogoMask | null, t: number)
   el.textContent = s;
 }
 
-/** CTA 背景: 中央に集まる静的ノイズ雲 */
-export function fillNoiseCloud(el: HTMLElement | null): void {
+/** CTA 背景: 中央に集まるノイズ雲(ゆっくり呼吸+明滅) */
+export function drawNoiseCloud(el: HTMLElement | null, t: number): void {
   const d = dims(el);
   if (!d || !el) return;
   const { cols, rows } = d;
+  const set = "·:++**%##@@$";
+  // 雲全体がゆっくり広がったり縮んだりする
+  const breath = 3.2 - 0.7 * Math.sin(t * 0.22);
   let s = "";
   for (let y = 0; y < rows; y++) {
     for (let x = 0; x < cols; x++) {
       const dx = (x - cols / 2) / (cols / 2);
       const dy = (y - rows / 2) / (rows / 2);
-      const p = Math.exp(-(dx * dx + dy * dy * 1.6) * 3.2);
-      s += Math.random() < p * 0.8 ? "#@%$*+·:"[Math.floor(Math.random() * 8)] : " ";
+      const p = Math.exp(-(dx * dx + dy * dy * 1.6) * breath);
+      // セルごとに固定の乱数。Math.random() と違いフレーム間で位置が飛ばない
+      const r = hash(x, y);
+      if (r >= p * 0.8) {
+        s += " ";
+        continue;
+      }
+      // セルごとに位相をずらして明滅させる
+      const tw = 0.55 + 0.45 * Math.sin(t * 0.9 + r * 6.283 + x * 0.1 + y * 0.18);
+      const idx = Math.min(set.length - 1, Math.floor(hash(x + 7919, y) * p * 16 * tw));
+      s += set[idx];
     }
     s += "\n";
   }

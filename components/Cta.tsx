@@ -5,8 +5,8 @@ export default function Cta() {
     <section id="contact" className="cta">
       <Ascii mode="cloud" className="cta-ascii" />
       <h2 className="cta-title">
-        ( Have something <span className="muted">crazy</span> in your mind?{" "}
-        <span className="muted">Let&apos;s</span> build it together! )
+        ( We <span className="muted">support you in</span> taking that first step{" "}
+        <span className="muted">and</span> keeping it going. )
       </h2>
       <a href="mailto:h.shima7010@gmail.com" className="pill pill--primary">
         START THE PROJECT
