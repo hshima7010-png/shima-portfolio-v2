@@ -35,6 +35,7 @@ function WorkCardBody({ w }: { w: Work }) {
         {w.href ? " ↗" : ""}
       </div>
       {w.desc && <div className="desc">{w.desc}</div>}
+      
     </>
   );
 }

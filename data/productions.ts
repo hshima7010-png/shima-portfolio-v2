@@ -13,6 +13,15 @@ export interface Production {
 
 export const productions: Production[] = [
   {
+    slug: "ui-dictionary-japan",
+    title: "UI DICTIONARY JAPAN",
+    tags: ["JS", "Next.js"],
+    tagLine: "Next.js · React · Tailwind CSS · shadcn/ui",
+    desc: "「このUI、なんて名前?」を解決する日本語のUI辞典。UIの意味・メリット・デメリットから HTML / Tailwind / React / shadcn/ui の実装コードまでを収録。",
+    image: "/images/ui-dictionary.webp",
+    url: "https://ui-dictionary-japan.vercel.app/",
+  },
+  {
     slug: "atelier",
     title: "ATELIER",
     tags: ["JS"],
@@ -20,6 +29,15 @@ export const productions: Production[] = [
     desc: "3ブランドを束ねるキュレーションECのデモ。デザインシステムを設計し、ブランドごとに異なる世界観を実装。",
     image: "/images/demo-ec.webp",
     url: "https://hshima7010-png.github.io/ATELIER/",
+  },
+  {
+    slug: "craftcode-lab",
+    title: "craftcode-lab",
+    tags: ["WordPress", "Shopify", "GSAP", "UI/UX"],
+    tagLine: "HTML · CSS · JS",
+    desc: "ECエンジニア・UI/UXデザイナーとしてのWordPressポートフォリオ。設計とフロントエンド開発を実装。",
+    image: "/images/craftcode-lab.webp",
+    url: "https://sh-test-1.com/",
   },
   {
     slug: "fukuoka-ramen-map",
@@ -59,4 +77,4 @@ export const productions: Production[] = [
   },
 ];
 
-export const productionTags = ["All", "JS", "Vue", "Map", "Python", "ML"];
+export const productionTags = ["All", "JS", "Next.js", "Vue", "Map", "Python", "ML"];

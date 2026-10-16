@@ -26,12 +26,12 @@ export interface Work {
 export const works: Work[] = [
   {
     num: "01",
-    title: "日昇館 — Gift EC / Shopify",
+    title: "日昇館 — Gift EC / Shopify password:123",
     year: "2026",
     wip: true,
     tagLine: "Shopify · Gift EC",
     image: "/images/nissyokan.webp",
-    href: null, // 公開後に独自ドメインURLへ差し替え
+    href: "https://nkkbcer.myshopify.com/", // 公開後に独自ドメインURLへ差し替え
   },
   {
     num: "02",

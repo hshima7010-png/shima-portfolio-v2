@@ -32,7 +32,7 @@ export const skillCols: SkillCol[] = [
     name: "EC / Shopify (1–5)",
     items: [
       "Shopify ストア構築",
-      "ECパッケージ開発",
+      "ECパッケージ開発 (通算約4年)",
       "ブランド設計 / EC戦略",
       "EC運用・分析改善",
       "LINE / メールマーケティング",
@@ -53,8 +53,8 @@ export const career: CareerItem[] = [
     desc: "GROWTH STUDIO / 個人事業 — Shopify専門のEC制作スタジオを運営(企画・デザイン・実装・運用まで一人で担当)",
   },
   {
-    period: "2024 — 2025",
+    period: "2022 — 2025",
     now: false,
-    desc: "自社サービス企業 / ECパッケージシステム開発 — フロントエンドとバックエンドの双方を担当(C# / SQL Server / JavaScript)",
+    desc: "自社サービス企業 / ECパッケージシステム開発 — フロントエンドとバックエンドの双方を担当(C# / SQL Server / JavaScript) (在学中インターン1年3ヶ月を含む)",
   },
 ];

@@ -35,7 +35,7 @@ export default function Hero() {
             ))}
           </h1>
           <p className="body-text hero-lead" data-anim="">
-            売れるECを、設計から運用まで。ECパッケージ開発の実務+Shopify専門スタジオ GROWTH
+            売れるECを、設計から運用まで。ECパッケージ開発 通算約4年+Shopify専門スタジオ GROWTH
             STUDIO 運営。
           </p>
         </div>
