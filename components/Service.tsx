@@ -31,7 +31,7 @@ export default function Service() {
         </div>
         <div>
           <a
-            href="https://www.growth-studio.shop/"
+            href="https://growth-studio-swart.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="pill"
