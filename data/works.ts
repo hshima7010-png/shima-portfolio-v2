@@ -41,7 +41,7 @@ export const works: Work[] = [
     tagLine: "Shopify · Gift EC · LINE",
     desc: "鹿児島の日本茶ブランド「翠園」。単品販売に偏っていた売り方を、用途別ギフトページを軸に組み直しました。選び方・淹れ方のオリジナルセクションで新規の離脱を防ぎ、LINEと季節設計でリピートまでつなげています。",
     image: "/images/suien.webp",
-    href: "https://www.growth-studio.shop/works/suien",
+    href: "https://growth-studio-swart.vercel.app/works/suien",
   },
   {
     num: "03",
@@ -51,7 +51,7 @@ export const works: Work[] = [
     tagLine: "Shopify · 自家焙煎珈琲 · ブランド設計",
     desc: "京都・老舗喫茶の自家焙煎珈琲を題材にした制作サンプル。ブランド設計からShopify構築まで、STARTプランの品質を実際のストアでご覧いただけます。",
     image: "/images/kura.webp",
-    href: "https://www.growth-studio.shop/works/kura-coffee",
+    href: "https://growth-studio-swart.vercel.app/works/kura-coffee",
   },
   {
     num: "04",
@@ -61,6 +61,6 @@ export const works: Work[] = [
     tagLine: "Shopify · Brand Design",
     desc: "オーガニックスキンケアブランドを題材にした制作サンプル。肌診断・成分辞典・会員ランクまで、コスメD2Cの「売れる仕組み」をご覧いただけます。",
     image: "/images/amane.webp",
-    href: "https://www.growth-studio.shop/works/amane",
+    href: "https://growth-studio-swart.vercel.app/works/amane",
   },
 ];
